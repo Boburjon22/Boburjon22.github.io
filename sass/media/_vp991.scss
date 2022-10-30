@@ -1,0 +1,86 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header{
+        display: none;
+    }
+    #ham {
+        display: none;
+    }
+    .hambur {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        padding: 10px 0;
+        img{
+            width: 55px;
+        }
+        .logo{
+            width: 40px;
+        }
+        .extra {
+            width: 360px;
+            height: 60vh;
+            position: absolute;
+            top: -100vh;
+            text-align: center;
+            z-index: 88;
+            padding-top: 50px;
+            background-color: black;
+            .nav1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                a {
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: gold;
+                }
+                a:hover{
+                    color: white;
+                     transform: scale(1.2);
+                }
+            }
+        }
+    }
+    #ham:checked~.lines .extra {
+        top: 0;
+        right: 0;
+    }
+    header {
+        overflow: hidden;
+        max-width: 80%;
+        background: linear-gradient(to right, rgb(221, 221, 245), rgb(191, 245, 191));
+    }
+    .content{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .skill-item{
+        flex-direction: column;
+    }
+    .img{
+        max-width: 715px;
+    }
+    .background1 {
+        top: 110px;
+        filter: blur(80px);
+    }
+    .background {
+        top: 110px;
+        filter: blur(80px);
+    }
+}

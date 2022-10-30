@@ -1,0 +1,20 @@
+@media (max-width: 475px){
+    .container{
+        max-width: 390px;
+    }
+    .content{
+        padding: 10px 0;
+        .left {
+            width: 385px;
+        }
+        .right {
+            width: 385px;
+        }
+        .right img {
+            width: 320px;
+        }
+    }
+    .img{
+        max-width: 385px;
+    }
+}

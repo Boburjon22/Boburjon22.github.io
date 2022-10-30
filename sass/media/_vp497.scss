@@ -1,0 +1,84 @@
+@media (max-width: 497px){
+    .container{
+        max-width: 455px;
+    }
+    .content{
+        padding: 10px 0;
+    }
+    .left {
+        width: 465px;
+    }
+    .right {
+        width: 455px;
+        padding: 0;
+    }
+    .right img {
+        width: 445px;
+    }
+    .space-cube1 {
+        width: 180px;
+        height: 180px;
+        perspective: 500px;
+    }
+    .cube1 {
+        width: inherit;
+        height: inherit;
+        transform-style: preserve-3d;
+        animation: cube-animation 6s linear infinite;
+    }
+    .side1 {
+        width: inherit;
+        height: inherit;
+        border: 1px solid black;
+        position: absolute;
+    }
+    .front1 {
+        transform: translateZ(90px);
+        background-color: #f005;
+    }
+    .back1 {
+        transform: rotateY(180deg) translateZ(90px);
+        background-color: #0f05;
+    }
+    .right1 {
+        transform: rotateY(90deg) translateZ(90px);
+        background-color: #ff05;
+    }
+    .left1 {
+        transform: rotateY(-90deg) translateZ(90px);
+        background-color: #0ff5;
+    }
+    .bottom1 {
+        transform: rotateX(-90deg) translateZ(90px);
+        background-color: #00f5;
+    }
+    .top1 {
+        transform: rotateX(90deg) translateZ(90px);
+        background-color: #f0f5;
+    }
+    
+    
+    @keyframes cube-animation {
+        from {
+            transform: rotateY(360deg) rotateX(0deg);
+        }
+        to   {
+            transform: rotateY(0deg) rotateX(-360deg);
+        }
+    }
+    .background1 {
+        position: absolute;
+        top: 350px;
+        width: 300px;
+        filter: blur(80px);
+    }
+    .background {
+        position: absolute;
+        top: 250px;
+        width: 300px;
+        filter: blur(80px);
+    }
+    .img {
+        max-width: 450px;
+    }
+}

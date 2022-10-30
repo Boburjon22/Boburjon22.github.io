@@ -1,0 +1,49 @@
+@media(max-width: 407px){
+    .container{
+        max-width: 310px;
+    }
+    .content{
+        padding: 10px 0;
+        .left {
+            width: 305px;
+        }
+        .right {
+            width: 305px;
+        }
+        .right img {
+            width: 280px;
+        }
+    }
+    .img{
+        max-width: 305px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 1.2em;
+        letter-spacing: .05em;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        line-height: 1.1em;
+        letter-spacing: .1em;
+        text-decoration: none;
+        font-weight: 500;
+        color: #000;
+        display: flex;
+        gap: 10px;
+    }
+    .background1 {
+        position: absolute;
+        top: 150px;
+        width: 300px;
+        filter: blur(80px);
+    }
+    .background {
+        position: absolute;
+        top: 150px;
+        width: 300px;
+        filter: blur(80px);
+    }
+}
