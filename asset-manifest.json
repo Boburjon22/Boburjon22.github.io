@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.6fab4fba.css",
-    "main.js": "/react-gh-pages/static/js/main.e1477858.js",
-    "static/media/burningman.png": "/react-gh-pages/static/media/burningman.6885b59d91e65d94c240.png",
-    "static/media/yangiyil.png": "/react-gh-pages/static/media/yangiyil.fdc6a41ac19646b40f81.png",
-    "static/media/DN.png": "/react-gh-pages/static/media/DN.33edb1e802c496517cdd.png",
-    "static/media/freebie.png": "/react-gh-pages/static/media/freebie.f332feb7595678bcb9bf.png",
-    "static/media/farmgame.png": "/react-gh-pages/static/media/farmgame.f9527738fa7551b2aefc.png",
-    "static/media/backimage.png": "/react-gh-pages/static/media/backimage.8734cb30a854586794b9.png",
-    "static/media/myWebsite.png": "/react-gh-pages/static/media/myWebsite.a2cfea8b45a54271c406.png",
-    "static/media/verstka.png": "/react-gh-pages/static/media/verstka.170080dd482b9e49ad17.png",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.fae1fd55ff692695c4f5.png",
-    "static/media/calculator.png": "/react-gh-pages/static/media/calculator.0a74c6cd03d1127af165.png",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/list.svg": "/react-gh-pages/static/media/list.15d19de402aaeef3abf7e838c9d67601.svg",
-    "main.6fab4fba.css.map": "/react-gh-pages/static/css/main.6fab4fba.css.map",
-    "main.e1477858.js.map": "/react-gh-pages/static/js/main.e1477858.js.map"
+    "main.css": "/static/css/main.f6ad1f4a.css",
+    "main.js": "/static/js/main.f9c735a7.js",
+    "static/media/burningman.png": "/static/media/burningman.6885b59d91e65d94c240.png",
+    "static/media/yangiyil.png": "/static/media/yangiyil.fdc6a41ac19646b40f81.png",
+    "static/media/DN.png": "/static/media/DN.33edb1e802c496517cdd.png",
+    "static/media/freebie.png": "/static/media/freebie.f332feb7595678bcb9bf.png",
+    "static/media/farmgame.png": "/static/media/farmgame.f9527738fa7551b2aefc.png",
+    "static/media/backimage.png": "/static/media/backimage.8734cb30a854586794b9.png",
+    "static/media/myWebsite.png": "/static/media/myWebsite.a2cfea8b45a54271c406.png",
+    "static/media/verstka.png": "/static/media/verstka.170080dd482b9e49ad17.png",
+    "static/media/logo.png": "/static/media/logo.fae1fd55ff692695c4f5.png",
+    "static/media/calculator.png": "/static/media/calculator.0a74c6cd03d1127af165.png",
+    "index.html": "/index.html",
+    "static/media/list.svg": "/static/media/list.15d19de402aaeef3abf7e838c9d67601.svg",
+    "main.f6ad1f4a.css.map": "/static/css/main.f6ad1f4a.css.map",
+    "main.f9c735a7.js.map": "/static/js/main.f9c735a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fab4fba.css",
-    "static/js/main.e1477858.js"
+    "static/css/main.f6ad1f4a.css",
+    "static/js/main.f9c735a7.js"
   ]
 }
