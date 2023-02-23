@@ -1,3 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +16,271 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.general{
+  background-color: #000;
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.headertext{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 2px;
+}
+.hamburgerMenu{
+  display: none
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 400;
+}
+a:hover{
+  color: grey;
+}
+.content{
+  width: 850px;
+  height: 88vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 70px 0;
+}
+.contenttext{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  letter-spacing: .1em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+.about{  
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)  0%,rgba(0, 0, 0, 0.9)  100%), url('../src/images/backimage.png');
+  background-size: cover;
+  background-position: center;
+}
+.aboutcont{
+  width: 750px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 0;
+  color: white;
+  gap: 5px;
+}
+.portfolio{
+  background-color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+.port-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.port-image h2{
+  font-size: 2.1rem;
+  padding: 30px 0 0 0;
+}
+.port-image a{
+  width: 180px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f6f6f6;
+  padding: 10px;
+  border-radius: 20px;
+  color: #838383;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.port-image a:hover {
+  color: #000;
+  transform: scale(1.1);
+  font-weight: 700;
+  background-color: #dbd7d7;
+}
+nav img{
+  max-width: 1110px;
+}
+.contact{
+  background-color: white;
+}
+.contacttext{
+  width: 550px;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  flex-direction: column;
+  text-align: center;
+  padding: 122px;
+  gap: 10px;
+}
+.contacttext h1{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+}
+.icontel{
+  display: flex;
+  gap: 20px;
+}
+.footer{
+  background-color: black;
+  padding: 20px 0;
+  color: white;
+}
+.footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 1010px){
+  .container{
+    max-width: 760px;
+  }
+  nav img{
+    max-width: 740px;
+  }
+  .content{
+    max-width: 740px;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+@media(max-width:780px){
+  .headertext{
+    display: none;
+  }
+  #ham{
+    display: none;
+  }
+  .hamburgerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 25px 0;
+  }
+  .extra {
+    width: 320px;
+    height: 50vh;
+    position: absolute;
+    top: -100vh;
+    text-align: center;
+    z-index: 88;
+    padding-top: 50px;
+    background-color: black;
+  }
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #ham:checked~.lines .extra {
+    top: 0;
+    right: 0;
+}
+  .container{
+    max-width: 620px;
+  }
+  nav img{
+    max-width: 580px;
+  }
+  .content{
+    max-width: 580px;
+    margin: auto;
+    padding: 0;
+  }
+  .aboutcont{
+    max-width: 600px;
+    margin: auto;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1em;
+    letter-spacing: .1em;
+  }
+  .contacttext{
+    padding: 0px;
+  }
+  .footer{
+    padding: 5px;
+  }
+}
+@media(max-width:640px){
+  .container{
+    max-width: 320px;
+  }
+  nav img{
+    max-width: 300px;
+  }
+  .content{
+    max-width: 300px;
+    margin: auto;
+  }
+  .aboutcont{
+    max-width: 300px;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .port-image h2{
+    font-size: 1.6rem;
+  }
+  .contacttext{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
 }
