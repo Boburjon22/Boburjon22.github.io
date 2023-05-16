@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 import logo from '../images/logo.png'
 import menu from '../logo/list.svg'
+import x from '../logo/x.svg'
+
 
 
 const Header = () => {
@@ -20,6 +22,9 @@ const Header = () => {
                 <input type="checkbox" id="ham"/>
                 <label for="ham" class="lines">
                     <div className="extra">
+                        <nav className="nav_x">
+                            <img src={x} width="35" alt="x.svg"></img>
+                        </nav>
                         <nav className="nav-link">
                             <NavLink to="/">Home</NavLink>
                             <NavLink to="/about">About</NavLink>
@@ -27,7 +32,7 @@ const Header = () => {
                             <NavLink to="/contact">Contact</NavLink>
                         </nav>
                     </div>
-                    <img src={menu} width="30" alt="list.svd"></img>
+                    <img src={menu} width="30" alt="list.svg"></img>
                 </label>
             </div>
             

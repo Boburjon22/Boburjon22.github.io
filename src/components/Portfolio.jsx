@@ -21,16 +21,16 @@ const Portfolio = () => {
                     <img src={FreebieAgency} alt="Freebie-Agency.png"></img>
                     <h2>Дизайн и Вёрстка</h2> <a href="https://boburjon22.github.io/dizayn_verstka/">Look beyond</a>
                     <img src={DV} width="1108" alt="verstka.png"></img>
-                    <h2>My Website</h2><a href="https://boburjon22.github.io/">Look beyond</a>
+                    <h2>First My_Website</h2><a href="https://boburjon22.github.io/first_mywebsite/">Look beyond</a>
                     <img src={myWeb} alt="my Website.png"></img>
                     <h2>Farm Game</h2><a href="https://boburjon22.github.io/farm_game/">Look beyond</a>
                     <img src={farmgame} alt="farmgame.png"></img>
-                    <h2>YANGI YIL TATILINI <br/>Biz bilan mazmunli otqazing</h2><a href="https://en.wikipedia.org/wiki/Burning_Man">Look beyond</a>
+                    <h2>YANGI YIL TATILINI <br/>Biz bilan mazmunli otqazing</h2><a href="https://boburjon22.github.io/fw-academy/">Look beyond</a>
                     <img src={yangiYil} alt="YANGI YIL TATILINI Biz bilan mazmunli otqazing.png"></img>
                     <h2>Calculator</h2><a href="https://boburjon22.github.io/calculator/">Look beyond</a>
                     <img src={calculator} alt="calculator.png"></img>
                 </nav> 
-            </div>
+            </ div>
         </div>
      );
 }
