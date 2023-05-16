@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6ad1f4a.css",
-    "main.js": "/static/js/main.f9c735a7.js",
+    "main.css": "/static/css/main.9e90121b.css",
+    "main.js": "/static/js/main.7daa2b22.js",
     "static/media/burningman.png": "/static/media/burningman.6885b59d91e65d94c240.png",
     "static/media/yangiyil.png": "/static/media/yangiyil.fdc6a41ac19646b40f81.png",
     "static/media/DN.png": "/static/media/DN.33edb1e802c496517cdd.png",
@@ -11,14 +11,15 @@
     "static/media/myWebsite.png": "/static/media/myWebsite.a2cfea8b45a54271c406.png",
     "static/media/verstka.png": "/static/media/verstka.170080dd482b9e49ad17.png",
     "static/media/logo.png": "/static/media/logo.fae1fd55ff692695c4f5.png",
-    "static/media/calculator.png": "/static/media/calculator.0a74c6cd03d1127af165.png",
+    "static/media/calculator.png": "/static/media/calculator.6b1fb82811af31ea5960.png",
     "index.html": "/index.html",
     "static/media/list.svg": "/static/media/list.15d19de402aaeef3abf7e838c9d67601.svg",
-    "main.f6ad1f4a.css.map": "/static/css/main.f6ad1f4a.css.map",
-    "main.f9c735a7.js.map": "/static/js/main.f9c735a7.js.map"
+    "static/media/x.svg": "/static/media/x.9f7124b90a19a28e53acf5edc900f32a.svg",
+    "main.9e90121b.css.map": "/static/css/main.9e90121b.css.map",
+    "main.7daa2b22.js.map": "/static/js/main.7daa2b22.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ad1f4a.css",
-    "static/js/main.f9c735a7.js"
+    "static/css/main.9e90121b.css",
+    "static/js/main.7daa2b22.js"
   ]
 }
